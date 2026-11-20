@@ -1,0 +1,74 @@
+/*
+this is a comment
+rule syntax:
+selector {
+	property: value;
+}
+*/
+
+/* this is wildcard selector.*/
+/* will apply to every element .*/
+
+* {
+	box-sizing: boarder-box;
+}
+
+/* adjusting screen size.*/
+body {
+	background-color: royalblue;
+
+	width: 100vw;
+	height: 100vh;
+
+	margin: 0;
+}
+
+body > *{
+	width: 100%;
+}
+
+
+/* selector = p */
+
+p {
+	font-size: 72px;
+}
+
+/* selector = blue */
+
+.blue {
+	color: white;
+	background-color: navy;
+
+	width: 50%;
+}
+
+/* targets a specidic element + classname */
+
+h1.blue {
+
+	background-color: cyan;
+
+}
+
+.purple {
+
+	background-color: rebeccapurple;
+
+}
+
+.big{
+
+	font-size: 24px;
+}
+
+.big.purple{
+	font-size: 48px;
+	background-color: plum;
+}
+
+#important{
+
+	font-family: monospace;
+	font-size: small
+}
